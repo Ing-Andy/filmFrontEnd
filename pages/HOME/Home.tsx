@@ -18,36 +18,36 @@ export default function Home() {
         setEmail(e.target.value);
     } 
     const db =[
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',title:'The Last of Us',lien:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',note:'8.5'},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',title:'The Last of Us',lien:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',note:'8.5'},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',title:'The Last of Us',lien:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',note:'8.5'},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',title:'The Last of Us',lien:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',note:'8.5'},
+        {image:'/image copy.png',title:'The Last of Us',lien:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',note:'8.5'},
+        {image:'/image copy.png',title:'The Last of Us',lien:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',note:'8.5'},
+        {image:'/image copy.png',title:'The Last of Us',lien:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',note:'8.5'},
+        {image:'/image copy.png',title:'The Last of Us',lien:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',note:'8.5'},
         // {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',title:'The Last of Us',lien:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',note:'8.5'},
         // {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',title:'The Last of Us',lien:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',note:'8.5'}
     ];
     const dbActor =[
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'The Last of Us',role:'actor'},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'The Last of Us',role:'actor'},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'The Last of Us',role:'actor'},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'The Last of Us',role:'actor'}
+        {image:'/image copy.png',name:'The Last of Us',role:'actor'},
+        {image:'/image copy.png',name:'The Last of Us',role:'actor'},
+        {image:'/image copy.png',name:'The Last of Us',role:'actor'},
+        {image:'/image copy.png',name:'The Last of Us',role:'actor'}
     ];
     const dbFilm =[
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'the last ship',time:'5:45:03s',},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'the last ship',time:'5:45:03s',},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'the last ship',time:'5:45:03s',},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'the last ship',time:'5:45:03s',},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'the last ship',time:'5:45:03s',},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'the last ship',time:'5:45:03s',},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'the last ship',time:'5:45:03s',},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'the last ship',time:'5:45:03s',},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'the last ship',time:'5:45:03s',},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'the last ship',time:'5:45:03s',}
+        {image:'/image copy.png',name:'the last ship',time:'5:45:03s',},
+        {image:'/image copy.png',name:'the last ship',time:'5:45:03s',},
+        {image:'/image copy.png',name:'the last ship',time:'5:45:03s',},
+        {image:'/image copy.png',name:'the last ship',time:'5:45:03s',},
+        {image:'/image copy.png',name:'the last ship',time:'5:45:03s',},
+        {image:'/image copy.png',name:'the last ship',time:'5:45:03s',},
+        {image:'/image copy.png',name:'the last ship',time:'5:45:03s',},
+        {image:'/image copy.png',name:'the last ship',time:'5:45:03s',},
+        {image:'/image copy.png',name:'the last ship',time:'5:45:03s',},
+        {image:'/image copy.png',name:'the last ship',time:'5:45:03s',}
     ];
   return (
     <div className='Home'>
         <header>
         <nav>
-            <div className='logo'><img src="http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/logo1.png" alt="logo" /></div>
+            <div className='logo'><img src="/image copy 2.png" alt="logo" /></div>
             <ul className='nav-list1'>
                 <li className='nav-item'><NavLink to=''>HOME <ChevronDown width='15px'/></NavLink></li>
                 <li className='nav-item'><NavLink to=''>MOVIES <ChevronDown width='15px'/></NavLink></li>
@@ -113,7 +113,7 @@ export default function Home() {
             </section>
             <aside className='Asides'>
                 <div className="BlocImage">
-                    <img src="http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/ads1.png" alt="image" />
+                    <img src="/image copy 3.png" alt="image" />
                 </div>
                 <div className="presentCelebriti">
                     <h4>spotlight CELEBRITIES</h4>
@@ -145,7 +145,7 @@ export default function Home() {
             </section>
             <section className="mainHome2section2">
                 <div className="imageMainHome2section2">
-                    <img src="http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/ads2.png" alt="image" />
+                    <img src="/image copy 4.png" alt="image" />
                 </div>
                 <div className='textMainHome2section2'>
                     <h4>FIND IN FACEBOOK</h4>
@@ -155,7 +155,7 @@ export default function Home() {
             <section className="mainHome2section3">
                 <div className="star">
                     <div className="imageStar">
-                        <img src="http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/blog-it1.jpg" alt="dsd" />
+                        <img src="/profilImage" alt="dsd" />
                     </div>
                     <div className="infoStar">
                         <h3>name of star</h3>
@@ -195,7 +195,7 @@ export default function Home() {
         <footer className="HomeFooter">
             <div className="FooterHome">
                 <div className="colone1">
-                    <div className='logofooter'><img src="http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/logo1.png" alt="logo" /></div>
+                    <div className='logofooter'><img src="/image copie 2.png" alt="logo" /></div>
                     <span>Grand moullin, DOUALA <br /> New York, NY 10001</span>
                     <p>Call us: (+237) 658341359</p>
                 </div>

@@ -15,17 +15,17 @@ export default function Movie() {
         setEmail(e.target.value);
     }
     const dbMovie = [
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',title:'andyFilm',note:'6.7',description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, dolorum, facere illum quibusdam dignissimos officia veritatis quaerat perspiciatis cum modi deserunt molestias minima. Molestias facilis ullam atque, quia tempore quibusdam.'},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',title:'andyFilm',note:'6.7',description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, dolorum, facere illum quibusdam dignissimos officia veritatis quaerat perspiciatis cum modi deserunt molestias minima. Molestias facilis ullam atque, quia tempore quibusdam.'},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',title:'andyFilm',note:'6.7',description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, dolorum, facere illum quibusdam dignissimos officia veritatis quaerat perspiciatis cum modi deserunt molestias minima. Molestias facilis ullam atque, quia tempore quibusdam.'},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',title:'andyFilm',note:'6.7',description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, dolorum, facere illum quibusdam dignissimos officia veritatis quaerat perspiciatis cum modi deserunt molestias minima. Molestias facilis ullam atque, quia tempore quibusdam.'},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',title:'andyFilm',note:'6.7',description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, dolorum, facere illum quibusdam dignissimos officia veritatis quaerat perspiciatis cum modi deserunt molestias minima. Molestias facilis ullam atque, quia tempore quibusdam.'}
+        {image:'/image copy.png',title:'andyFilm',note:'6.7',description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, dolorum, facere illum quibusdam dignissimos officia veritatis quaerat perspiciatis cum modi deserunt molestias minima. Molestias facilis ullam atque, quia tempore quibusdam.'},
+        {image:'/image copy.png',title:'andyFilm',note:'6.7',description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, dolorum, facere illum quibusdam dignissimos officia veritatis quaerat perspiciatis cum modi deserunt molestias minima. Molestias facilis ullam atque, quia tempore quibusdam.'},
+        {image:'/image copy.png',title:'andyFilm',note:'6.7',description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, dolorum, facere illum quibusdam dignissimos officia veritatis quaerat perspiciatis cum modi deserunt molestias minima. Molestias facilis ullam atque, quia tempore quibusdam.'},
+        {image:'/image copy.png',title:'andyFilm',note:'6.7',description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, dolorum, facere illum quibusdam dignissimos officia veritatis quaerat perspiciatis cum modi deserunt molestias minima. Molestias facilis ullam atque, quia tempore quibusdam.'},
+        {image:'/image copy.png',title:'andyFilm',note:'6.7',description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, dolorum, facere illum quibusdam dignissimos officia veritatis quaerat perspiciatis cum modi deserunt molestias minima. Molestias facilis ullam atque, quia tempore quibusdam.'}
     ]
     return (
     <div className='Movie'>                         
         <header>
             <nav>
-                <div className='logo'><img src="http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/logo1.png" alt="logo" /></div>
+                <div className='logo'><img src="/image copy 2.png" alt="logo" /></div>
                 <ul className='nav-list1'>
                     <li className='nav-item'><NavLink to=''>HOME <ChevronDown width='15px'/></NavLink></li>
                     <li className='nav-item'><NavLink to=''>MOVIES <ChevronDown width='15px'/></NavLink></li>
@@ -84,7 +84,7 @@ export default function Movie() {
             <aside className='asideMovie'>
                 <Form />
                 <div className="BlocImage">
-                    <img src="http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/ads1.png" alt="image" />
+                    <img src="/image copy 3.png" alt="image" />
                 </div>
                 <div className='lienFacebook'>
                     <h4>FIND IN FACEBOOK</h4>
@@ -105,7 +105,7 @@ export default function Movie() {
                     <ul className="footerListe">
                         <li>
                             <div className="colone1">
-                                <div className='logofooter'><img src="http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/logo1.png" alt="logo" /></div>
+                                <div className='logofooter'><img src="/image copy 2.png" alt="logo" /></div>
                                 <span>Grand moullin, DOUALA <br /> New York, NY 10001</span>
                                 <p>Call us: (+237) 658341359</p>
                             </div>
