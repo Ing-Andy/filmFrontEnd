@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom'
 import { Blocks, ChevronDown,ChevronRight,List,Search } from 'lucide-react'
 import './Movie.css'
 import BlocMovie from '../../components/Blocs/BlocMovie/BlocMovie';
-import BlocActor from '../../components/Blocs/BlocActor/BlocActor';
 import Form from '../../components/Form/Form';
 import BlocPoint from '../../components/Blocs/Bloc3Points/BlocPoint';
 
@@ -14,14 +13,7 @@ export default function Movie() {
     const handlechange = (e: React.ChangeEvent<HTMLInputElement>) => {
         setInputValue(e.target.value) ;
         setEmail(e.target.value);
-    } 
-    const dbActor =[
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'The Last of Us',role:'actor'},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'The Last of Us',role:'actor'},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'The Last of Us',role:'actor'},
-        {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',name:'The Last of Us',role:'actor'}
-    ];
-
+    }
     const dbMovie = [
         {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',title:'andyFilm',note:'6.7',description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, dolorum, facere illum quibusdam dignissimos officia veritatis quaerat perspiciatis cum modi deserunt molestias minima. Molestias facilis ullam atque, quia tempore quibusdam.'},
         {image:'http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider1.jpg',title:'andyFilm',note:'6.7',description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, dolorum, facere illum quibusdam dignissimos officia veritatis quaerat perspiciatis cum modi deserunt molestias minima. Molestias facilis ullam atque, quia tempore quibusdam.'},

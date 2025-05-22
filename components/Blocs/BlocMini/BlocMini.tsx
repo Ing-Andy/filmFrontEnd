@@ -1,4 +1,3 @@
-import React from 'react'
 import './BlocMini.css'
 import { NavLink } from 'react-router-dom'
 import { Star } from 'lucide-react';

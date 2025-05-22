@@ -1,4 +1,3 @@
-import React from 'react'
 import { NavLink } from 'react-router-dom'
 import BlocPoint from '../Blocs/Bloc3Points/BlocPoint'
 import './NavMenu.css'

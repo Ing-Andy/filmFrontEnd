@@ -1,4 +1,3 @@
-import React from 'react'
 import { ChevronRight } from 'lucide-react'
 import './Title.css'
 export default function Title() {

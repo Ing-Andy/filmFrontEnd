@@ -1,4 +1,3 @@
-import React from 'react'
 import './BlocMovie.css'
 import { Star } from 'lucide-react'
 
